@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.roque.com.componentsui">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".scroll_view_vertical.ScrollViewVerticalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".scroll_view_horizontal.ScrollViewHorizontalActivity" />
+        <activity android:name=".android_button.AndroidButtonActivity" />
+        <activity android:name=".imagen_button.ImageButtonActivity" />
+        <activity android:name=".edit_text.EditTextActivity" />
+        <activity android:name=".check_box.CheckBoxActivity" />
+        <activity android:name=".radio_button.RadioButtonActivity" />
+        <activity android:name=".switch_button.SwitchButtonActivity" />
+        <activity android:name=".toggle_button.ToggleButtonActivity" />
+        <activity android:name=".rating_bar.RatingBarActivity" />
+        <activity android:name=".spinner.SpinnerActivity" />
+        <activity android:name=".progress_bar.ProgressBarActivity" />
+        <activity android:name=".date_picker.DatePickerActivity" />
+        <activity android:name=".time_picker.TimePickerActivity" />
+        <activity android:name=".floating_action_button.FloatingActionButtonActivity" />
+        <activity android:name=".floating_labels.FloatingLabelsActivity" />
+        <activity android:name=".seek_bar.SeekBarActivity" />
+        <activity android:name=".simple_dialog.SimpleDialogActivity" />
+        <activity android:name=".custom_alert_dialog.CustomAlertDialogActivity" />
+        <activity android:name=".snack_bar.SnackbarActivity" />
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".image_view.ImageViewActivity" />
+        <activity android:name=".video_view.VideoViewActivity" />
+        <activity android:name=".web_view.WebViewActivity" />
+        <activity android:name=".search_view.SearchViewActivity" />
+        <activity android:name=".calendar_view.CalendarViewActivity"></activity>
+    </application>
+
+</manifest>
